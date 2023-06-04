@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@300&display=swap");
+
+
+
+body {
+  background-color: #eae6e6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Geologica", sans-serif;
+}
+
+
+
+.item1 p {
+  margin: 10px;
+}
+
+.grid {
+  margin: 13px;
+  column-gap: 2px;
+  grid-template-rows: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+.gf {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.grid img {
+  width: 100%;
+  height: 100%;
+}
+
+.cards {
+  flex-wrap: wrap;
+  column-gap: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 28px;
+  margin-top: 50px;
+}
+
+.fm h5 {
+  display: flex;
+  justify-content: start;
+}
+
+#foot {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#cr {
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#btt {
+  color: white;
+  text-decoration: none;
+}
+
+#para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#para p {
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  #foot {
+    align-items: center;
+    justify-content: start;
+  }
+}
+
